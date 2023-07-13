@@ -107,12 +107,12 @@ class Logic
                 if (isDirectory)
                 {
                     Console.ForegroundColor = ConsoleColor.DarkGray;
-                    Console.WriteLine(name + " [Folder]");
+                    Console.WriteLine(name + " [Папка]");
                 }
                 else
                 {
                     Console.ForegroundColor = ConsoleColor.White;
-                    Console.WriteLine(name + " [File]");
+                    Console.WriteLine(name + " [Файл]");
                 }
 
                 Console.ResetColor();
